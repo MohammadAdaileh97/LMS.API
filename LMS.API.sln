@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LMS.API", "LMS.API.csproj", "{199B16F9-0421-448F-AC05-FF28AC61AB67}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LMS.Infra", "..\LMS.Infra\LMS.Infra.csproj", "{2303251A-42CB-49E7-A7FE-9F4C59B1C11B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LMS.Core", "..\LMS.Core\LMS.Core.csproj", "{AEF82F14-AC7B-4191-87F5-D2673EBF0CBF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{199B16F9-0421-448F-AC05-FF28AC61AB67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{199B16F9-0421-448F-AC05-FF28AC61AB67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{199B16F9-0421-448F-AC05-FF28AC61AB67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{199B16F9-0421-448F-AC05-FF28AC61AB67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2303251A-42CB-49E7-A7FE-9F4C59B1C11B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2303251A-42CB-49E7-A7FE-9F4C59B1C11B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2303251A-42CB-49E7-A7FE-9F4C59B1C11B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2303251A-42CB-49E7-A7FE-9F4C59B1C11B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEF82F14-AC7B-4191-87F5-D2673EBF0CBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEF82F14-AC7B-4191-87F5-D2673EBF0CBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEF82F14-AC7B-4191-87F5-D2673EBF0CBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEF82F14-AC7B-4191-87F5-D2673EBF0CBF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
