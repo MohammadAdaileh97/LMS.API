@@ -19,7 +19,7 @@ namespace LMS.API.Controllers
         public IActionResult Login(Login login)
         {
             var result = _authService.Login(login);
-            if (result == null) return Unauthorized();
+            if (result == null) return Unauthorized("Invalid UserName Or Password");
             return Ok(result);
         }
     }

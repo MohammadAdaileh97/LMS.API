@@ -26,6 +26,7 @@ namespace LMS.API
             builder.Services.AddScoped<ICourseRepository, CourseRepository>();
             builder.Services.AddScoped<ICourseService, CourseService>();
             builder.Services.AddScoped<IAuthRepo, AuthRepo>();
+            builder.Services.AddScoped<IAuthService, AuthService>();
 
 
             builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
@@ -36,7 +37,7 @@ namespace LMS.API
                     ValidateIssuer = true,
                     ValidateAudience = true,
                     ValidateLifetime = true,
-                     ValidateIssuerSigningKey = true,
+                    ValidateIssuerSigningKey = true,
                  };
                });
 
